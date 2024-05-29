@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = "https://todo-app-react-mongo-db-deploy-on-verce-atlas-server.vercel.app"
+const baseUrl = "https://todo-app-backend-ashen.vercel.app"
 
 const getAllToDo =(setToDo)=>{
     axios.get(baseUrl).then(({data})=>{
