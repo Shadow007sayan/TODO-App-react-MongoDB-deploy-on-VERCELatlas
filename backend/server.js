@@ -11,7 +11,7 @@ const MONGOURL = process.env.MONGOURL;
 app.use(express.json())
 app.use(cors(
     {
-        origin : ["https://todo-app-frontend-tau.vercel.app/"],
+        origin : ["https://todo-app-frontend-tau.vercel.app"],
         methods:["POST","GET"],
         credentials : true
     }
